@@ -1,0 +1,493 @@
+@media (min-width: 1024px) {
+  .top-links:hover,
+  .heroLeft-links:hover {
+    text-decoration: none;
+    color: #2476ff;
+    font-weight: bold;
+  }
+
+  .trigram {
+    display: none;
+  }
+
+  .top-button:hover,
+  .play-button:hover {
+    background-color: white;
+  }
+
+  .top-button:hover .buyNow,
+  .play-button:hover .Play,
+  .bottomlinks:hover {
+    color: #2476ff;
+  }
+
+  .privacy:hover {
+    color: #2476ff;
+    text-decoration: underline dashed #2476ff;
+  }
+
+  input[type="submit"]:hover {
+  background: #294bbb;
+}
+
+  .tiny {
+    display: none;
+  }
+
+  
+.asana, .paypal {
+   animation: scale-icon 3s none infinite alternate 3s;
+}
+
+.atlassian {
+  animation: wobble-icon 3s none infinite normal 3s;
+}
+
+.calendar, .weave {
+
+   animation: rotate-icon 4s none infinite normal 4s;
+}
+
+.google, .google-ads {
+  
+animation: vanish-icon 3s none infinite normal 4s;
+}
+}
+
+
+@media (min-width: 768px) AND (max-width: 1023px) {
+  .top-nav-list {
+    display: none;
+  }
+
+  .heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 664px;
+  }
+  .heroLeftPart {
+    width: 100%;
+    height: 305px;
+    padding-bottom: 60px;
+    padding-top:0px;
+    gap:30px;
+    align-items: center;
+  
+  }
+
+  .heroRightPart {
+    width: 100%;
+    height: auto;
+  }
+
+  #title,
+  #desc {
+    align-self: center;
+  }
+
+  .pricingFeaturesList {
+    flex-direction: column;
+    align-items: center;
+  }
+  .planDivider,
+  .planDesc {
+    width: 78vw;
+  }
+
+  .plan {
+    width: 88vw;
+    filter: none;
+    align-items: center;
+  }
+
+  .planHeader {
+    align-items: center;
+  }
+  .hireUsSection {
+    flex-direction: column;
+    height: auto;
+  }
+  .hireUsLeft {
+    flex-direction: row;
+    width: 92vw;
+    padding: 40px 30px 20px 30px;
+    height:240px;
+    gap: 60px;
+  }
+
+  .hireUsRight {
+    width: 92vw;
+    padding: 30px;
+    gap: 10px;
+  }
+
+  .hireUsLeftTop {
+    width: 51vw;
+    gap: 32px;
+  }
+
+  .hireUsLeftBottom {
+    width: 25vw;
+    gap: 30px;
+  }
+
+  .hireUsTitle {
+    width: 51vw;
+  }
+
+  .hireUsTitle-Title {
+    width: 51vw;
+  }
+
+  .hireText1 {
+    width: 11.9vw;
+  }
+
+  .hireText2 {
+    width: 51vw;
+  }
+
+  .hireDivider {
+    width: 51vw;
+  }
+
+  .hirePhrase {
+    width: 47.2vw;
+  }
+
+  .hirePerson {
+    width: 25vw;
+  }
+
+  .hirePersonName {
+    width: 18vw;
+  }
+
+  .hirePersonTitle {
+    width: 25vw;
+  }
+
+  .feature {
+    width: 43vw;
+  }
+
+  .footer2-5 {
+    flex-direction: column;
+  }
+
+  #whyFrontDesc,
+#pricingDesc {
+  width:78vw;
+}
+.tiny {
+    display: none;
+  }
+
+  #Firstname-field,
+#Lastname-field { 
+width:36vw;
+}
+
+#email-field {
+width:76vw;
+
+ }
+
+select {
+width:37vw;
+}
+
+#project-info {
+width:76vw;
+}
+
+.form-submit-control { 
+  justify-content: center;
+  align-items: center;
+}
+
+.hireFormRow { 
+  width:76vw;
+}
+
+.asana {
+  left: 70vw;
+}
+
+.atlassian {
+  left: 33.8vw;
+}
+
+.calendar {
+
+  left: 70vw;
+}
+
+.google {
+  left: 12vw;
+
+}
+
+.google-ads {
+  left: 30vw;
+}
+
+.paypal {
+  left: 8vw;
+  
+}
+
+.weave {
+  left: 50vw;
+  
+}
+
+
+
+}
+
+@media (min-width: 360px) AND (max-width: 767px) {
+  .top-nav-list {
+    display: none;
+  }
+
+  .heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:594px;
+  }
+
+  .heroLeftPart {
+    width: auto;
+    height: 190px;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top:0px;
+    gap:30px;
+  }
+
+  .heroRightPart {
+    width: 100%;
+    height: 309px;
+  }
+  #title {
+    font-size: 26px;
+  }
+  #title,
+  #desc {
+    align-self: center;
+  }
+
+  .bulletLeftWing,
+  .bulletRightWing {
+    display: none;
+  }
+
+  .bulletsList {
+    flex-direction: column;
+  }
+
+  .bullet {
+    flex-direction: row;
+  }
+  .pricingFeaturesList {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+
+  .table-row {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  .plan {
+    filter: none;
+  }
+
+  .feature {
+    width: 100vw;
+  }
+  .hireUsSection {
+    flex-direction: column;
+    align-items: center;
+    height:1337px;
+  }
+
+  .hireUsLeft {
+    flex-direction: column;
+    align-items:center;
+    height:452px;
+    width: 100vw;
+    padding: 40px 16px 20px 16px;
+    gap: 60px;
+  }
+
+  .hireUsRight {
+    width: 100vw;
+    padding: 30px 16px;
+    gap: 10px;
+    height:880px;
+  }
+
+  .hireUsLeftTop {
+    align-items: center;
+    width: 91vw;
+    gap: 32px;
+  }
+
+  .hireUsLeftBottom {
+    align-items: center;
+    width: 91vw;
+    gap: 30px;
+  }
+
+  .hireUsTitle {
+    width: 91vw;
+    align-items: center;
+  }
+
+  .hireUsTitle-Title {
+    align-items: center;
+    width: 91vw;
+  }
+
+  .hireText1 {
+    align-items: center;
+    width: 15vw;
+  }
+
+  .hireText2 {
+    align-items: center;
+    width: 50vw;
+    justify-content: center;
+  }
+
+  .hireDivider {
+    align-items: center;
+    width: 91vw;
+  }
+
+  .hirePhrase {
+    align-items: center;
+    width: 91vw;
+  }
+
+  .hirePerson {
+    align-items: center;
+    width: 91vw;
+  }
+
+  .hirePersonName {
+    align-items: center;
+    width: 30vw;
+  }
+
+  .hirePersonTitle {
+    align-items: center;
+    width: 35vw;
+  }
+  .planDivider,
+  .planDesc {
+    width: 78vw;
+  }
+
+  .plan {
+    width: 88vw;
+    filter: none;
+    align-items: center;
+  }
+
+  .planHeader {
+    align-items: center;
+  }
+
+  footer,
+  .footer2-5,
+  .footer2-3,
+  .footer4-5,
+  .footerColumn1,
+  .footerColumn2,
+  .footerColumn3,
+  .footerColumn4,
+  .footerColumn5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+    #whyFrontDesc,
+#pricingDesc {
+  width:88vw;
+}
+.tiny {
+    display: none;
+  }
+
+    #Firstname-field,
+#Lastname-field, select, #project-info { 
+  width:75vw;
+}
+
+#email-field {
+  width:75vw;
+ }
+
+
+.hireFormRow {
+  flex-direction: column;
+  height:108px;
+  width:75vw;
+}
+
+.asana {
+  left: 70vw;
+  top: -10px;
+}
+
+.atlassian {
+  left: 33.8vw;
+  top: -330px;
+}
+
+.calendar {
+
+  left: 70vw;
+  top: 210px;
+}
+
+.google {
+  left: 12vw;
+  top: -415px;
+
+}
+
+.google-ads {
+  left: 30vw;
+  top:-170px;
+}
+
+.paypal {
+  left: 8vw;
+  top: -35px;
+}
+
+.weave {
+  left: 50vw;
+  top: 50px;
+}
+
+
+}
+
+
+@media  (max-width: 359px) {
+  .topSection, .whyFrontSection, .pricingSection, .hireUsSection, footer {
+    display:none;
+  }
+}

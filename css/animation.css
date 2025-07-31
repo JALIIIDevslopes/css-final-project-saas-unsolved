@@ -1,0 +1,58 @@
+@keyframes rotate-icon {
+  0% {
+     rotate: 0deg;
+  }
+
+  25%  {
+    rotate: 90deg;
+  }
+
+  50% {
+    rotate: 180deg;
+  }
+   
+  75% {
+    rotate: 270deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+
+
+@keyframes scale-icon {
+  from {
+    scale: 1;
+  }
+
+  to {
+    scale: 0.5;
+  }
+}
+
+
+
+
+
+@keyframes  vanish-icon {
+  from {
+    opacity: 1;
+    translate: 0 0;
+  }
+
+  to {
+    opacity: 0;
+    translate: -20px;
+  }
+}
+
+@keyframes wobble-icon {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 180deg;
+  }
+}
